@@ -20,7 +20,7 @@ Desafio Técnico Framework System
 * Uma dica: Para se tornar um padawan é importante também saber pesquisar e correr atrás! Não tenha medo
 
 ![Desafio](https://media.giphy.com/media/LYUbQo4w6v7WM0GL7P/giphy.gif)
-<p align="center">
+
 <!--ts-->
 
 - [Sobre](#Sobre)
@@ -35,7 +35,7 @@ Desafio Técnico Framework System
 * [x] Menu com acesso as três telas
 * [x] Uma tabela por tela
 * [x] Resposividade
-</p>
+
 <h4 align="center"> 
 	🚧  Status 🚀 Concluído...  🚧
 </h4>
