@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  background: #1d1d1d;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fff;
+
+  height: 5rem;
+  width: 100%;
+
+  padding: 3rem;
+
+  border: 1px solid #ffffff;
+}
+
+.header p img {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+
+  width: 50%;
+
+  list-style: none;
+}
+
+.header ul li p {
+  color: #4d2f63;
+
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  margin-left: 0.2rem;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+section .section__title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+
+  margin-top: 1rem;
+
+  color: #4d206d;
+}
+section .section__subtitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+
+  margin-top: 1rem;
+}
+section ul {
+  margin: 0 auto;
+  width: 80%;
+}
+section li {
+  margin-top: 1rem;
+}
+section img {
+  margin-top: 1rem;
+  width: 80%;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+}
+.mainAlbum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+
+  color: #fff;
+
+  width: 90%;
+  margin: 0 auto;
+}
+.main .main__row {
+  display: inherit;
+  grid-template-columns: inherit;
+  grid-column: 1/-1;
+  grid-gap: inherit;
+
+  border: 0.4rem solid #4d2f63;
+  border-radius: 2px;
+
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.main .main__row span {
+  text-align: center;
+}
+.main .main__row p {
+  padding: 0.4rem;
+
+  border: 0.3rem solid #4d2f64;
+  border-radius: 4px;
+}
+.main .main__row p:first-child {
+  text-align: center;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 83.75%;
+  }
+}
+
+@media (max-width: 728px) {
+  html {
+    font-size: 77.5%;
+  }
+}
